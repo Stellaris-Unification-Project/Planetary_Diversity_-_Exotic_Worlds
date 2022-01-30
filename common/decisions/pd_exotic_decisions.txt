@@ -17,7 +17,7 @@ decision_radiotrophic_world_nocolony = {
 	
 	potential = {
 		exists = space_owner
-		space_owner = { is_same_value = from }
+		is_owned_by = from
 		from = { 
 			has_trait = trait_pc_irradiated_preference 
 			has_technology = tech_climate_restoration
